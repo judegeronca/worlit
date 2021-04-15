@@ -1,0 +1,143 @@
+*
+{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+nav{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 3vh;
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #282e34;
+    
+
+}
+.logo{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links li{
+    list-style: none
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 22%
+
+
+    
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+
+
+
+.img-container{
+    background-image: url(bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+}
+.inner-container{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    color: white;
+    height: auto;
+    margin-top: 200px;
+}
+
+
+h1{
+    font-size:  6em;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 110px;
+    color: white;
+
+
+}
+h2{
+
+    margin-top: -25px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+
+a{
+    margin-top: 25px;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.btn{
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 4px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2 ease-out color 0.2s ease-out;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.btn:hover,.btn:active{
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+@media only screen and (max-width: 920px){
+    .inner-container{
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    .inner-container{
+        margin-top: 150px;
+    }
+    h1{
+        font-size: 5em;
+    }
+    h2{
+        font-size: 1.4em;
+    }
+}
+.name{
+    width: 600px;
+    margin: auto;
+    font-size: 1.4em;
+    color: white;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
